@@ -1,0 +1,4 @@
+export 'rfid_scan_event.dart';
+
+export 'serial_service_stub.dart'
+    if (dart.library.io) 'serial_service_native.dart';
